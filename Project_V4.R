@@ -114,3 +114,12 @@ addmargins(cTab)
 #Calculating Accuracy
 accuracy <- sum(diag(cTab))/sum(cTab)
 accuracy
+
+#Probability scores on training data & ROC Curve
+pred <- predict(mylogit, type = "response")
+predObj <- prediction(pred, trainset$readmitted)
+rocObj <- performance(predObj, measure = "tpr", x.measure = "fpr")
+aucObj <- performance(predObj, measure = "auc")
+auc = aucObj@y.values[[1]]
+auc
+plot(rocObj, main = paste("Area under the curve: ", auc))
