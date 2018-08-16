@@ -6,7 +6,7 @@ The dataset was obtained from one of our professors at Northern Illinois Univers
 Performed initial data exploration and data cleansing using Excel (Pivot tables, Slicer and other advanced Excel functions).
 The cleansed data file can be found in this repository named med_data.csv
 
-### Project_V4.R 
+##### Project_V4.R 
 
 Holds the R code used to perform data analysis, data type conversions, data transformations etc.
 
