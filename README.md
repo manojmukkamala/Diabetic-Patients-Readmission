@@ -1,4 +1,4 @@
-# Diabetic-Patients-Readmission
+# Diabetic-Patients-Readmission-Prediction
 
 In this project, I have analyzed the relationship between diabetes patient readmission and the various patient attributes.
 The dataset was obtained from one of our professors at Northern Illinois University who is working on Statistical Modeling.
